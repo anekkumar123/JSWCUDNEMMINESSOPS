@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOP List - JSW Steel</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        // Toggle visibility of SOPs when category is clicked
+        function toggleCategory(categoryId) {
+            const category = document.getElementById(categoryId);
+            if (category.style.display === "none") {
+                category.style.display = "block";
+            } else {
+                category.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <img src="download.png" alt="JSW Steel Logo" class="logo">
+            <h1>JSW Steel Cudnem Mines - Standard Operating Procedures (SOP)</h1>
+        </div>
+    </header>
+
+    <main>
+        <h2>Mining Operations SOPs</h2>
+        
+        <!-- HEMM & LMV OPERATIONS -->
+        <h3 onclick="toggleCategory('hemm-lmv')">HEMM & LMV OPERATIONS (SOP)</h3>
+        <ul id="hemm-lmv" style="display: none;">
+            <li><a href="https://jsw-my.sharepoint.com/:w:/g/personal/anek_kumar_jsw_in/EaRYu6mhkcBOqGXX2gjO2XkBR4qZYI5h_uhmExq1CGgp9A?e=fOqj7g" target="_blank">SOP - Drilling Operations</a></li>
+            <li><a href="https://jsw-my.sharepoint.com/:w:/g/personal/anek_kumar_jsw_in/EYBkhdeFEyJDmpUG-keBQuIB2vAaLs3biigYbfBfxh2xOg?e=GNxdzI" target="_blank">SOP - Excavator Operations</a></li>
+            <li><a href="https://jsw-my.sharepoint.com/:w:/g/personal/anek_kumar_jsw_in/EZt-j5x_ZltFh89CSc9U5bcB3PDZBtFViEXs465Tq-AZ2g?e=BG9xTW" target="_blank">SOP - Dumper Operations</a></li>
+            <li><a href="https://jsw-my.sharepoint.com/:w:/g/personal/anek_kumar_jsw_in/EczfO4pX9h1MmZcbT-laAtcBEdFS4te6uWlJwFHxS_osPQ?e=M53Go2" target="_blank">SOP - GRADER English Operations</a></li>
+            <li><a href="https://jsw-my.sharepoint.com/:w:/g/personal/anek_kumar_jsw_in/EWLXq6i38iNKgDp-ATx_tq8BNb994EmhkHN3PH1O3ayeNg?e=VDsI0X" target="_blank">SOP - Loader Operations</a></li>
+            <li><a href="https://jsw-my.sharepoint.com/:w:/g/personal/anek_kumar_jsw_in/Ed1-ZoQPBzNNmX1lgRlRkc0BaJwB2UikdMZ8G7QUpH1hPA?e=RNFZcg" target="_blank">SOP - Hydra Crane Operations</a></li>
+            <li><a href="https://jsw-my.sharepoint.com/:w:/g/personal/anek_kumar_jsw_in/EZfSCQBOYJBJu9aoRpgMcQsBc93vTjL1dJ5bBgZR8b7Qtg?e=E9eCUp" target="_blank">SOP - LMV Operations</a></li>
+            <li><a href="https://jsw-my.sharepoint.com/:w:/g/personal/anek_kumar_jsw_in/EdDLpQskQLBNnvnFT7SKiwEBWkMA8wV7diI8YvANX_nLJA?e=zHrOZv" target="_blank">SOP - LMV 2 Operations</a></li>
+            <li><a href="https://jsw-my.sharepoint.com/:w:/g/personal/anek_kumar_jsw_in/Eagj-Exncr9LoLzwU1T_39EBrDR8347ZBMNT59kdh7tu0g?e=Q73WOJ" target="_blank">SOP - Dozer English</a></li>
+            <li><a href="https://jsw-my.sharepoint.com/:w:/g/personal/anek_kumar_jsw_in/EVwks5JQilJNo0jqMbCX5xsB0Mb93W2CqL6UjdbEnyNZZA?e=uGaFxO" target="_blank">SOP - CORE DRILL ENGLISH 30 A</a></li>
+        </ul>
+        
+        <!-- ELECTRICAL OPERATIONS -->
+        <h3 onclick="toggleCategory('electrical')">ELECTRICAL OPERATIONS (SOP)</h3>
+        <ul id="electrical" style="display: none;">
+            <li><a href="https://jsw-my.sharepoint.com/:w:/g/personal/anek_kumar_jsw_in/EWNcNxEUFuRDsDSwSk5wU8MBtB_GpNrt7T0EnW5pRByY2g?e=vUWmKv" target="_blank">SOP - Carrying out Electrical Repairs on both HT & LT Switches</a></li>
+            <li><a href="https://jsw-my.sharepoint.com/:w:/g/personal/anek_kumar_jsw_in/ESEe9qfjoDJHjWufqbogjR0B4WFMoTzLPfBDn9Ihd93GFQ?e=k4EDan" target="_blank">SOP - DG Set Operations</a></li>
+            <li><a href="https://jsw-my.sharepoint.com/:w:/g/personal/anek_kumar_jsw_in/EYayDrzY0CFEice7hnR-j6UBzGhqb48Rqru9zwH74wjGBQ?e=MVZBYE" target="_blank">SOP - Electrical Installation Operations</a></li>
+            <li><a href="https://jsw-my.sharepoint.com/:w:/g/personal/anek_kumar_jsw_in/EXJ_C4Q1F4VCsjqD7J15NG4B4jgC9MQSgpWspBAYSxhuoA?e=OjMFhH" target="_blank">SOP - Work shutdown and re-charging procedures for electrical works</a></li>
+            <li><a href="https://jsw-my.sharepoint.com/:w:/g/personal/anek_kumar_jsw_in/EXv82CtjIQRDqMSTkMMrtgUBDc3m3Jhr7QkSt1gXq71knQ?e=Rmq16b" target="_blank">SOP - Operation of High Tension (HT) Panel Operations</a></li>
+        </ul>
+
+        <!-- BLASTING OPERATIONS -->
+        <h3 onclick="toggleCategory('blasting')">BLASTING OPERATION (SOP)</h3>
+        <ul id="blasting" style="display: none;">
+            <li><a href="https://jsw-my.sharepoint.com/:b:/g/personal/anek_kumar_jsw_in/EZaw6MpbM_9Hr2RzIgJ7334BeqAig4wDbXZqpOseD9_2eQ?e=Ri0cgS" target="_blank">SOP - HANDLING OF SME Operations</a></li>
+            <li><a href="https://jsw-my.sharepoint.com/:b:/g/personal/anek_kumar_jsw_in/Eacsa2_HJ8FNkkU4ClXlSvQBouS_2uP6ALbHn8bw9tl05g?e=JWCa2W" target="_blank">SOP - Training procedure for Blasting crew Operations</a></li>
+            <li><a href="https://jsw-my.sharepoint.com/:w:/g/personal/anek_kumar_jsw_in/EVeUCQWKb2BFgV84dZLrYo8B20fpWUGGEMfnQI_TYU3YHQ?e=VMpLrp" target="_blank">SOP - Blasting Operation</a></li>
+            <li><a href="https://jsw-my.sharepoint.com/:i:/g/personal/anek_kumar_jsw_in/EaBQ0O-BJYtAkjABD7G5KbgBn7WAxAFw1I_73_e4I0Mtcw?e=8qDi27" target="_blank">SOP - Code of blasting signal Operations</a></li>
+        </ul>
+
+        <!-- LOGISTIC OPERATIONS -->
+        <h3
+        <!-- LOGISTIC OPERATIONS -->
+        <h3 onclick="toggleCategory('logistics')">LOGISTIC OPERATION (SOP)</h3>
+        <ul id="logistics" style="display: none;">
+            <li><a href="https://jsw-my.sharepoint.com/:w:/g/personal/anek_kumar_jsw_in/EQkGkvK2k2tCsPQwRFBBf9gBjSYUFPXhS07fzmhqx6yLXg?e=UZybLZ" target="_blank">SOP - Transportation truck Drivers Operations</a></li>
+            <li><a href="https://jsw-my.sharepoint.com/:w:/g/personal/anek_kumar_jsw_in/EYap-pxo7b1Ct99aqTNHncYBXNXZmjPPSu740hhfRRXecg?e=LBtsqG" target="_blank">SOP - Dispatch Operations</a></li>
+        </ul>
+
+        <!-- STACK & QUALITY OPERATIONS -->
+        <h3 onclick="toggleCategory('stack-quality')">STACK & QUALITY OPERATION (SOP)</h3>
+        <ul id="stack-quality" style="display: none;">
+            <li><a href="https://jsw-my.sharepoint.com/:w:/g/personal/anek_kumar_jsw_in/EZCxtr94aGdLmZlhDzuk4e4BWDfKC36PNyukqPfObmoncA?e=wDQecN" target="_blank">SOP - Stack Making & Approval Process Operations</a></li>
+            <li><a href="https://jsw-my.sharepoint.com/:w:/g/personal/anek_kumar_jsw_in/ETH0gh1TDPBAqLtG-BXpJBsB7BKwLf43m1OEyu-0dWQRWw?e=gtv7mj" target="_blank">SOP - Sampling Operations</a></li>
+            <li><a href="https://jsw-my.sharepoint.com/:w:/g/personal/anek_kumar_jsw_in/EXNGv8rnj1tIip9WkePg1jQBmzx8DMO6UznDFxkGbXbdAA?e=iSTkMv" target="_blank">SOP - Quality control at Screen plants at JSW Mines</a></li>
+        </ul>
+
+        <!-- CPU & MECHANICAL OPERATIONS -->
+        <h3 onclick="toggleCategory('cpu-mechanical')">CPU & MECHANICAL OPERATION (SOP)</h3>
+        <ul id="cpu-mechanical" style="display: none;">
+            <li><a href="https://jsw-my.sharepoint.com/:w:/g/personal/anek_kumar_jsw_in/ERci10Bs8N9Gi1K38KTePFsBXMpAHy25A89aVaKcmrQ_CA?e=1NcPWO" target="_blank">SOP - Excavation Works-CPU project Operations</a></li>
+            <li><a href="https://jsw-my.sharepoint.com/:w:/g/personal/anek_kumar_jsw_in/EZ33ZGwiieZEm8MGxIegS9ABrfeTm813Vd6SV18vKlTVNg?e=cpQUN2" target="_blank">SOP - Safe code of Practice for working at heights</a></li>
+            <li><a href="https://jsw-my.sharepoint.com/:w:/g/personal/anek_kumar_jsw_in/EbkT6ocWHBxPppG2Mq82UBsBd29tjqPGr9rYeBiv_cGldg?e=BepyyJ" target="_blank">SOP - Scaffolding Works Operations</a></li>
+        </ul>
+
+        <!-- HEMM Maintenance -->
+        <h3 onclick="toggleCategory('hemm-Maintenance')">HEMM Maintenance (SOP)</h3>
+        <ul id="hemm-Maintenance" style="display: none;">
+            <li><a href="https://drive.google.com/file/d/1-BKmiq1UePX5WgAPGG8Un0QePoj4CXhj/view?usp=sharing" target="_blank">SOP - BATTERY MAINTENANCE</a></li>
+             <li><a href="https://drive.google.com/file/d/1Tyx_PhgAQdEdKYV_TZ5MTDKGpm4cBQo2/view?usp=sharing" target="_blank">SOP - TYRE REMOVAL AND FITMENT</a></li>
+            <!-- DAILY MAINTENANCE OF EQUIPMENTS -->
+            <h3  onclick="toggleCategory('DAILY MAINTENANCE OF EQUIPMENTS')">DAILY MAINTENANCE OF EQUIPMENTS (SOP)</h3>
+             <ul id="DAILY MAINTENANCE OF EQUIPMENTS" style="display: none;">
+                <li><a href="https://drive.google.com/file/d/1wkB43NWvNoXN3Z-QuF-NcIfDhoFiGHHl/view?usp=sharing" target="_blank">SOP - DAILY MAINTENANCE OF HEMM</a></li>
+                <li><a href="https://drive.google.com/file/d/1XckUlxNFGbZqQkA8WlrNRZRgNUd1gTWk/view?usp=sharing" target="_blank">SOP - DAILY MAINTENANCE OF DG</a></li>
+                <li><a href="https://drive.google.com/file/d/1FbmoGUa3TZWMZd8s-7D5BwEgcX_rBUpO/view?usp=sharing" target="_blank">SOP - DAILY MAINTENANCE OF HMV</a></li>
+             </ul>
+            
+             <!-- MAINTENANCE OF WHEEL LOADER -->
+             <h3 onclick="toggleCategory('MAINTENANCE OF WHEEL LOADER')"> MAINTENANCE OF WHEEL LOADER (SOP)</h3>
+              <ul id="MAINTENANCE OF WHEEL LOADER" style="display: none;">
+                <li><a href="https://drive.google.com/file/d/1D_Tr0wjuOmLodfTalowZ2_V9E5ux2DmI/view?usp=sharing" target="_blank">SOP - 250 hrs SCHEDULE MAINTENANCE OF WHEEL LOADER</a></li>
+                <li><a href="https://drive.google.com/file/d/1sUnERiyH3LSLX6_nZeOYCynhe_HeM4a1/view?usp=sharing" target="_blank">SOP - 500 hrs SCHEDULE MAINTENANCE OF WHEEL LOADER</a></li>
+                <li><a href="https://drive.google.com/file/d/1QyDU9RN72uWiTEvvq7lIbn3ks5rrHf9d/view?usp=sharing" target="_blank">SOP - 1000 hrs SCHEDULE MAINTENANCE OF WHEEL LOADER</a></li>
+                <li><a href="https://drive.google.com/file/d/1z2lJiQ0xIpY4oql3SkR5RhthybJBWXg3/view?usp=sharing" target="_blank">SOP - 2000 hrs SCHEDULE MAINTENANCE OF WHEEL LOADER</a></li>
+             </ul>
+        </ul>
+                 
+
+
+        <!-- OTHERS -->
+        <h3 onclick="toggleCategory('others')">OTHERS (SOP)</h3>
+        <ul id="others" style="display: none;">
+            <li><a href="https://jsw-my.sharepoint.com/:w:/g/personal/anek_kumar_jsw_in/Efb9FfCUNJdPlMdu9edSWTQBBmpvjU30p4fpCpW6mqy9Lw?e=yUL5gH" target="_blank">SOP - Lockout-Tag out Operations</a></li>
+            <li><a href="https://jsw-my.sharepoint.com/:w:/g/personal/anek_kumar_jsw_in/ESGLqdKkh15OioDR5J8W1gkBFWZysIwTIGHk0nkBh97kZw?e=rAjMmx" target="_blank">SOP - OJT Operations</a></li>
+        </ul>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 JSW Steel Ltd. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
