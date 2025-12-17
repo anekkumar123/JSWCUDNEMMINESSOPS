@@ -1,0 +1,149 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #0072bc;
+}
+
+.logo {
+    height: 80px;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Main Content */
+main {
+    padding: 40px;
+    text-align: left;
+}
+
+h2 {
+    font-size: 22px;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+/* Category headers with different colors */
+h3 {
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+/* HEMM & LMV */
+h3.hemm-lmv {
+    color: #0072bc !important;
+}
+
+h3.hemm-lmv:hover {
+    color: #004d66 !important;
+}
+
+/* Electrical */
+h3.electrical {
+    color: #ff9900 !important;
+}
+
+h3.electrical:hover {
+    color: #cc7a00 !important;
+}
+
+/* Blasting */
+h3.blasting {
+    color: #cc3333 !important;
+}
+
+h3.blasting:hover {
+    color: #a32929 !important;
+}
+
+/* Logistics */
+h3.logistics {
+    color: #339933 !important;
+}
+
+h3.logistics:hover {
+    color: #267326 !important;
+}
+
+/* Stack & Quality */
+h3.stack-quality {
+    color: #9966cc !important;
+}
+
+h3.stack-quality:hover {
+    color: #7a52a3 !important;
+}
+
+/* CPU & Mechanical */
+h3.cpu-mechanical {
+    color: #ff6666 !important;
+}
+
+h3.cpu-mechanical:hover {
+    color: #cc5252 !important;
+}
+
+/* Others */
+h3.others {
+    color: #999999 !important;
+}
+
+h3.others:hover {
+    color: #666666 !important;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+li {
+    margin: 15px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #0072bc;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #004d66;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 4px solid #0072bc;
+}
+
+footer p {
+    margin: 0;
+}
